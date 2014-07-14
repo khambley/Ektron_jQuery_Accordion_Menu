@@ -1,0 +1,136 @@
+﻿body {
+    font-size: 14px;
+}
+#uxMainMenu_menunav {
+	width: 350px;
+	}
+ul li a {
+    text-decoration: none;
+}
+ul.ui-state-active,
+ul.ui-widget-content ul.ui-state-active,
+ul.ui-widget-header ul.ui-state-active {
+	border: 0;
+	background: #ffffff;
+	font-weight: normal;
+	color: #8dc63f;
+}
+ul.ui-accordion .ui-accordion-header {
+	background: #FFF;
+	background-image: linear-gradient(white, #EBEBEB);
+	padding: 11px 10px;
+	color: #3a75c4;
+	font-family: "open-sans-condensed", sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+    border: 0;
+	}
+.subaccordion .white-bg {
+	background: #FFF;
+	background-image: none;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	}
+.subaccordion .ui-accordion-content .ui-accordion-header {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	}
+ul.ui-accordion .ui-accordion-header a {
+	color: #3a75c4;
+}
+ul.ui-accordion .ui-accordion-header a:hover {
+	color: #8bc53e;
+	}
+.ui-accordion .ui-accordion-header a:focus {
+	color: #8dc63f;
+	}
+ul.ui-accordion .ui-accordion-content {
+	padding: 1px 10px;
+    border: 0;
+	}
+ul.ui-accordion .ui-accordion-content .ui-accordion-header {
+	padding: 0px 20px;
+    border: 0;
+    background: #fff;
+	}
+
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+    left: 1px;
+}
+ul.ui-accordion .ui-accordion-icons {
+	padding-left: 1.8em;
+	}
+.ui-accordion .ui-accordion-header-active {
+	border: 0px;
+	}
+a.ui-state-active {
+	border: 0px;
+	color: #8Dc63f;
+	}
+.ui-state-default {
+	border: 0px;
+	}
+.ui-widget-content {
+	border: 0px;
+	}
+.ui-state-focus {
+	border: 0px;
+	}
+.ui-state-active .ui-icon {
+    background-image: url(../imgs/ui-icons_3a75c4_256x240.png);
+}
+.ui-state-default .ui-icon {
+    background-image: url(../imgs/ui-icons_3a75c4_256x240.png);
+}
+.ui-state-hover .ui-icon {
+		background-image: url(../imgs/ui-icons_8bc53e_256x240.png);
+	}
+.ui-accordion-header-active .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	border: 0px;
+	}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	border: 0px;
+	}
+ul.subnav > li > ul {
+    list-style-type: none;
+}
+ul.subnav > li > ul > li {
+    margin-left: 12px;
+    }
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+	border: 0;
+	background: #fff;
+	font-weight: normal;
+	color: #212121;
+   
+}
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+	border: 0;
+	background: #fbf9ee url("images/ui-bg_glass_55_fbf9ee_1x400.png") 50% 50% repeat-x;
+	color: #363636;
+}
+li.menuitem > a {
+	color: #5e5e5e;
+	padding-right: 10px;
+	background: url(../imgs/link-arrow-yellow.png) no-repeat right;
+	font-size: .7em;
+	font-weight: normal;
+}
+li.menuitem > a:hover {
+    background: url(../imgs/link-arrow-yellow.png) no-repeat right;
+    text-decoration: underline;
+    }
+li.menuitem > a:focus {
+    background: url(../imgs/link-arrow-yellow.png) no-repeat right;
+    
+    }
+.fa-institution {
+	margin-left: 2px;
+	}
